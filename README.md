@@ -100,5 +100,5 @@
 ```
 
 - 참고
-[SK Open API](https://openapi.sk.com/)
-[T map API docs](http://tmapapi.sktelecom.com/main.html#webservice/docs/tmapRouteDoc)
+  - [SK Open API](https://openapi.sk.com/)
+  - [T map API docs](http://tmapapi.sktelecom.com/main.html#webservice/docs/tmapRouteDoc)
