@@ -5,6 +5,7 @@
 
 - 결과 예제
 ```json
+// 기차역
 [
     {
         "city":11,
@@ -66,37 +67,72 @@
         "latitude":"35.20570496",
         "longitude":"128.99749024"
     },
+]
+
+// 버스터미널
+[
     {
-        "city":26,
-        "name":"부산진역",
-        "upperAddrName":"부산",
-        "middleAddrName":"동구",
-        "lowerAddrName":"수정동",
-        "detailBizName":"경부선",
-        "latitude":"35.12907561",
-        "longitude":"129.04937670"
+        "city":11,
+        "name":"서울역전시외버스터미널",
+        "upperAddrName":"서울",
+        "middleAddrName":"중구",
+        "lowerAddrName":"봉래동2가",
+        "detailBizName":"시외",
+        "latitude":"37.55773287",
+        "longitude":"126.97154968"
     },
     {
-        "city":26,
-        "name":"부전역",
-        "upperAddrName":"부산",
-        "middleAddrName":"부산진구",
-        "lowerAddrName":"부전동",
-        "detailBizName":"동해선",
-        "latitude":"35.16362750",
-        "longitude":"129.06062478"
+        "city":11,
+        "name":"서울고속버스터미널 경부영동선",
+        "upperAddrName":"서울",
+        "middleAddrName":"서초구",
+        "lowerAddrName":"반포동",
+        "detailBizName":"고속",
+        "latitude":"37.50579505",
+        "longitude":"127.00454814"
     },
     {
-        "city":26,
-        "name":"사상역",
-        "upperAddrName":"부산",
-        "middleAddrName":"사상구",
-        "lowerAddrName":"괘법동",
-        "detailBizName":"경부선",
-        "latitude":"35.16254296",
-        "longitude":"128.98843665"
+        "city":11,
+        "name":"신세계센트럴시티터미널 호남선",
+        "upperAddrName":"서울",
+        "middleAddrName":"서초구",
+        "lowerAddrName":"반포동",
+        "detailBizName":"고속",
+        "latitude":"37.50348976",
+        "longitude":"127.00454821"
+    },
+    {
+        "city":11,
+        "name":"서울남부터미널",
+        "upperAddrName":"서울",
+        "middleAddrName":"서초구",
+        "lowerAddrName":"서초동",
+        "detailBizName":"종합",
+        "latitude":"37.48474215",
+        "longitude":"127.01613102"
+    },
+    {
+        "city":11,
+        "name":"동서울종합터미널",
+        "upperAddrName":"서울",
+        "middleAddrName":"광진구",
+        "lowerAddrName":"구의동",
+        "detailBizName":"종합",
+        "latitude":"37.53495993",
+        "longitude":"127.09356699"
+    },
+    {
+        "city":11,
+        "name":"수유터미널",
+        "upperAddrName":"서울",
+        "middleAddrName":"강북구",
+        "lowerAddrName":"번동",
+        "detailBizName":"시외",
+        "latitude":"37.63708572",
+        "longitude":"127.02487590"
     },
 ]
+
 ```
 
 - 참고
