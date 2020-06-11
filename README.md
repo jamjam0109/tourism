@@ -1,10 +1,9 @@
 # tourism
 
-
-## output example of traffic.py 
-
+## traffic.py
 - 전국 기차역 또는 버스터미널 위치정보 확인
 
+- 결과 예제
 ```json
 [
     {
@@ -97,6 +96,9 @@
         "latitude":"35.16254296",
         "longitude":"128.98843665"
     },
-    ...
 ]
 ```
+
+- 참고
+[SK Open API](https://openapi.sk.com/)
+[T map API docs](http://tmapapi.sktelecom.com/main.html#webservice/docs/tmapRouteDoc)
