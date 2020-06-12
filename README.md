@@ -2,8 +2,6 @@
 
 ## traffic.py
 - 전국 기차역 또는 버스터미널 위치정보 확인
-
-- 결과 예제
 ```json
 // 기차역
 [
@@ -46,26 +44,6 @@
         "detailBizName":"경의선",
         "latitude":"37.58217310",
         "longitude":"126.89494486"
-    },
-    {
-        "city":26,
-        "name":"부산역",
-        "upperAddrName":"부산",
-        "middleAddrName":"동구",
-        "lowerAddrName":"초량동",
-        "detailBizName":"경부선",
-        "latitude":"35.11432711",
-        "longitude":"129.04090562"
-    },
-    {
-        "city":26,
-        "name":"구포역",
-        "upperAddrName":"부산",
-        "middleAddrName":"북구",
-        "lowerAddrName":"구포동",
-        "detailBizName":"경부선",
-        "latitude":"35.20570496",
-        "longitude":"128.99749024"
     },
 ]
 
@@ -111,30 +89,26 @@
         "latitude":"37.48474215",
         "longitude":"127.01613102"
     },
-    {
-        "city":11,
-        "name":"동서울종합터미널",
-        "upperAddrName":"서울",
-        "middleAddrName":"광진구",
-        "lowerAddrName":"구의동",
-        "detailBizName":"종합",
-        "latitude":"37.53495993",
-        "longitude":"127.09356699"
-    },
-    {
-        "city":11,
-        "name":"수유터미널",
-        "upperAddrName":"서울",
-        "middleAddrName":"강북구",
-        "lowerAddrName":"번동",
-        "detailBizName":"시외",
-        "latitude":"37.63708572",
-        "longitude":"127.02487590"
-    },
 ]
 
 ```
-
 - 참고
   - [SK Open API](https://openapi.sk.com/)
   - [T map API docs](http://tmapapi.sktelecom.com/main.html#webservice/docs/tmapRouteDoc)
+
+## keyword.py
+- 연관어 unique 적용하기 
+```json
+[
+   '우수성을',
+   '분위기의',
+   '최대',
+   '라운지가',
+   '가성비짱',
+   '뒤를',
+   '우리집은',
+   '서울대',
+   '한참을',
+   '요즘유행하는코디',
+ ]
+```
